@@ -18,3 +18,17 @@ function showPop() {
         }
     }
 }
+
+var string = "Happy 2023 year!";
+
+function parseInteger() {
+    var num = "";
+
+    for (const i in string) {
+        if (string[i]%2 != Nan) {
+            num += string[i];
+        } else {
+            continue;
+        }
+    }
+}
